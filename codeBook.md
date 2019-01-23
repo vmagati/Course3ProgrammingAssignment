@@ -48,12 +48,12 @@
       - tBodyAccMag-std(): contains data of the average of the standard deviations of the magnitudes of body accelerations
       - tGravityAccMag-mean(): contains data of the average of the means of the magnitudes of total accelerations
       - tGravityAccMag-std(): contains data of the average of the standard deviations of the magnitudes of total accelerations
-      - tBodyAccJerkMag-mean(): contains data of the average of the means of the magnitudes of body jerks
-      - tBodyAccJerkMag-std(): contains data of the average of the standard deviations of the magnitudes of body jerks
+      - tBodyAccJerkMag-mean(): contains data of the average of the means of the magnitudes of body acceleration jerks
+      - tBodyAccJerkMag-std(): contains data of the average of the standard deviations of the magnitudes of body acceleration jerks
       - tBodyGyroMag-mean(): contains data of the average of the means of the magnitudes of body angular velocities
       - tBodyGyroMag-std(): contains data of the average of the standard deviations of the magnitudes of body angular velocities
-      - tBodyGyroJerkMag-mean(): contains data of the average of the means of the magnitudes of body angular accelerations
-      - tBodyGyroJerkMag-std(): contains data of the average of the standard deviations of the magnitudes of body angular accelerations
+      - tBodyGyroJerkMag-mean(): contains data of the average of the means of the magnitudes of body gyroscope jerks
+      - tBodyGyroJerkMag-std(): contains data of the average of the standard deviations of the magnitudes of body gyroscope jerks
   - Frequency Measurements:
     - variables containing data of the average of the means of body accelerations
       - fBodyAcc-mean()-X
@@ -82,5 +82,11 @@
     - Cartesian coordinate variables
       - fBodyAccMag-mean(): contains data of the average of the means of the magnitudes of body accelerations
       - fBodyAccMag-std(): contains data of the average of the standard deviations of the magnitudes of body accelerations
+      - fBodyBodyAccJerkMag-mean(): contains data of the average of the means of the magnitudes of body acceleration jerks
+      - fBodyBodyAccJerkMag-std(): contains data of the average of the standard deviations of the magnitudes of body acceleration jerks
+      - fBodyBodyGyroMag-mean(): contains data of the average of the means of the magnitudes of body angular velocities 
+      - fBodyBodyGyroMag-std(): contains data of the average of the standard deviations of the magnitudes of body angular velocities
+      - fBodyBodyGyroJerkMag-mean(): contains data of the average of the means of the magnitudes of body gyroscope jerks
+      - fBodyBodyGyroJerkMag-std(): contains data of the average of the standard deviations of the magnitudes of body gyroscope jerks
   
   
