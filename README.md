@@ -1,4 +1,4 @@
-# Course3: Getting and Cleaning Data Peer-Graded Assignment
+# Course 3: Getting and Cleaning Data Peer-Graded Assignment
 This repo contains three files used for running analysis on the data collected through the Human Activity Recognition Using Smartphones experiment
 
 A full description of the experiment can be found here:
