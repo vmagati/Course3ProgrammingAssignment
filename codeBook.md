@@ -2,8 +2,85 @@
 ## Variables
   - Subject: contains data of 30 volunteers within an age of 19-48 years, with each performing six activities while wearing a smartphone on their waist. These subjects were randomly partitioned into two sets, 70% of which generated training data, and 30% of which generated test data, as indicated in the text file
   - Activity: contains data of the activity performed by the subject, of which there are six: walking, walking upstairs, walking downstairs, sitting, standing, and laying
-  - tBodyAcc-mean()-X: contains data of the average triaxial acceleration in the X-axis recorded from the smartphone's embedded accelerometer and gyroscope for each activity for each subject
-  - tBodyAcc-mean()-Y: contains data of the average triaxial acceleration in the Y-axis recorded from the smartphone's embedded accelerometer and gyroscope for each activity for each subject
-  - tBodyAcc-mean()-Z: contains data of the average triaxial acceleration in the Z-axis recorded from the smartphone's embedded accelerometer and gyroscope for each activity for each subject
-  - tBodyAcc-std()-X: contains data of the standard deviation in the triaxial acceleration in the X-axis recorded from the smartphone's embedded accelerometer and gyroscope for each activity for each subject
-  - tBodyAcc-std()-Y: contains data of the standard deviation in the triaxial acceleration in the Y-axis recorded from the smartphone's embedded accelerometer and gyroscope for each activity for each subject
+  - Time Measurements:
+    - variables containing data of the average of the means of body accelerations
+      - tBodyAcc-mean()-X
+      - tBodyAcc-mean()-Y
+      - tBodyAcc-mean()-Z
+    - variables containing data of the average of the standard deviations of body acceleration
+      - tBodyAcc-std()-X
+      - tBodyAcc-std()-Y
+      - tBodyAcc-std()-Z
+    - variables containing data of the average of the means of total accelerations
+      - tGravityAcc-mean()-X 
+      - tGravityAcc-mean()-Y
+      - tGravityAcc-mean()-Z
+    - variables containing data of the average of the standard deviations of total accelerations
+      - tGravityAcc-std()-X
+      - tGravityAcc-std()-Y
+      - tGravityAcc-std()-Z
+    - variables containing data of the average of the means of body jerks
+      - tBodyAccJerk-mean()-X
+      - tBodyAccJerk-mean()-Y
+      - tBodyAccJerk-mean()-Z
+    - variables containing data of the average of the standard deviations of the body jerks
+      - tBodyAccJerk-std()-X
+      - tBodyAccJerk-std()-Y
+      - tBodyAccJerk-std()-Z
+    - variables containing data of the average of the means of angular velocities
+      - tBodyGyro-mean()-X 
+      - tBodyGyro-mean()-Y
+      - tBodyGyro-mean()-Z
+    - variables containing data of the average of the standard deviations of angular velocities
+      - tBodyGyro-std()-X
+      - tBodyGyro-std()-Y
+      - tBodyGyro-std()-Z
+    - variables containing data of the average of the means of angular accelerations
+      - tBodyGyroJerk-mean()-X
+      - tBodyGyroJerk-mean()-Y
+      - tBodyGyroJerk-mean()-Z
+    - variables containing data of the average of the standard deviations of angular accelerations
+      - tBodyGyroJerk-std()-X
+      - tBodyGyroJerk-std()-Y
+      - tBodyGyroJerk-std()-Z
+    - Cartesian coordinate variables
+      - tBodyAccMag-mean(): contains data of the average of the means of the magnitudes of body accelerations
+      - tBodyAccMag-std(): contains data of the average of the standard deviations of the magnitudes of body accelerations
+      - tGravityAccMag-mean(): contains data of the average of the means of the magnitudes of total accelerations
+      - tGravityAccMag-std(): contains data of the average of the standard deviations of the magnitudes of total accelerations
+      - tBodyAccJerkMag-mean(): contains data of the average of the means of the magnitudes of body jerks
+      - tBodyAccJerkMag-std(): contains data of the average of the standard deviations of the magnitudes of body jerks
+      - tBodyGyroMag-mean(): contains data of the average of the means of the magnitudes of body angular velocities
+      - tBodyGyroMag-std(): contains data of the average of the standard deviations of the magnitudes of body angular velocities
+      - tBodyGyroJerkMag-mean(): contains data of the average of the means of the magnitudes of body angular accelerations
+      - tBodyGyroJerkMag-std(): contains data of the average of the standard deviations of the magnitudes of body angular accelerations
+  - Frequency Measurements:
+    - variables containing data of the average of the means of body accelerations
+      - fBodyAcc-mean()-X
+      - fBodyAcc-mean()-Y
+      - fBodyAcc-mean()-Z
+    - variables containing data of the average of the standard deviations of body accelerations
+      - fBodyAcc-std()-X
+      - fBodyAcc-std()-Y
+      - fBodyAcc-std()-Z
+    - variables containing data of the average of the means of body jerks
+      - fBodyAccJerk-mean()-X
+      - fBodyAccJerk-mean()-Y
+      - fBodyAccJerk-mean()-Z
+    - variables containing data of the average of the standard deviations of body jerks
+      - fBodyAccJerk-std()-X
+      - fBodyAccJerk-std()-Y
+      - fBodyAccJerk-std()-Z
+    - variables containing data of the average of the means of body angular velocities
+      - fBodyGyro-mean()-X
+      - fBodyGyro-mean()-Y
+      - fBodyGyro-mean()-Z
+    - variables containing data of the average of the standard deviations of body angular velocities
+      - fBodyGyro-std()-X
+      - fBodyGyro-std()-Y
+      - fBodyGyro-std()-Z
+    - Cartesian coordinate variables
+      - fBodyAccMag-mean(): contains data of the average of the means of the magnitudes of body accelerations
+      - fBodyAccMag-std(): contains data of the average of the standard deviations of the magnitudes of body accelerations
+  
+  
